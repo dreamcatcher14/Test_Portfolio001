@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(250, 223, 183);
+}
+
+h1{
+    background-color: rgb(67, 153, 117);
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 40pt;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h2{
+    color: rgb(121, 82, 56);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 40pt;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.tso_pic_main{
+    text-align: center;
+}
+
+#tso5_1{
+    width: 20%;
+    border: 5px dotted rgb(121, 82, 56);
+    border-radius: 20px;
+}
+
+.tso_pic_ing{
+    text-align: center;
+}
+
+#tso1{
+    width: 20%;
+    border: 5px dotted rgb(121, 82, 56);
+    border-radius: 20px;
+}
+
+h3{
+    background-color: rgb(255, 255, 255);
+    color: rgb(67, 153, 117);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.ingredients_text{
+    color: rgb(121, 82, 56);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 15pt;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h4{
+    background-color: rgb(255, 255, 255);
+    color: rgb(67, 153, 117);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.tso_pic_ins_flex{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.tso_pic_ins_flex div{
+    width: 400px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#tso2{
+    width: 50%;
+    border: 5px dotted rgb(121, 82, 56);
+    border-radius: 20px;
+}
+
+#tso3{
+    width: 50%;
+    border: 5px dotted rgb(121, 82, 56);
+    border-radius: 20px;
+}
+
+#tso4{
+    width: 50%;
+    border: 5px dotted rgb(121, 82, 56);
+    border-radius: 20px;
+}
+
+p{
+    color: rgb(121, 82, 56);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 15pt;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.tso_pic_end_flex{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.tso_pic_end_flex div{
+    width: 400px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+#tso5_2{
+    width: 50%;
+    border: 5px dotted rgb(121, 82, 56);
+    border-radius: 20px;
+}
+
+#tso7{
+    width: 50%;
+    border: 5px dotted rgb(121, 82, 56);
+    border-radius: 20px;
+}
+
+#tso8{
+    width: 50%;
+    border: 5px dotted rgb(121, 82, 56);
+    border-radius: 20px;
+}
+
+.link{
+    background-color: rgb(67, 153, 117);
+    font-weight: bold;
+    text-align: center;   
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+a:link{
+	color: rgb(255, 255, 255);
+}  
+
+a:visited{
+	color: rgb(121, 82, 56);
+} 
+ 
+ a:hover{ 
+	color: rgb(0, 0, 0);
+} 

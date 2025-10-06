@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(46, 46, 48);
+}
+
+.grid-container {
+	display: grid;
+    grid-template-columns: 10% auto 20%;
+    grid-gap: 10px;
+}
+
+.grid-container > div{
+    border: 5px solid rgb(255, 255, 255);
+    background-color:rgb(255, 222, 90);
+}
+
+#header{
+	grid-column: 1 / span 3;
+	font-size: 88px;
+	font-weight: bold;
+    color: rgb(255, 47, 47);
+	text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+#main1{
+	grid-column: 1 / span 1;
+	font-size: 16px;
+    text-align: center;
+    color: rgb(17, 17, 17);
+	border: 5px solid rgb(255, 255, 255);
+    background-color:rgb(61, 239, 108);
+}
+
+#main2{
+	grid-column: 2/ span 1;
+	font-size: 16px;
+    color: rgb(17, 17, 17);
+	text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+	border: 5px solid rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
+}
+
+
+#right{
+	grid-column: 3/ span 1;
+	 display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+	border: 5px solid rgb(255, 255, 255);
+    background-color:rgb(255, 47, 47);
+}
+
+#footer{
+	grid-column: 1 / span 3;
+	font-size: 20px;
+    color: rgb(255, 47, 47);
+	text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+@media only screen and (max-width: 500px) {
+	.grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+	    color: rgb(255, 47, 47);	    
+	}
+
+	#header{
+        grid-column: 1 / span 1;
+	color:rgb(255, 255, 255);
+	}
+    #main1{
+        grid-column: 1 / span 1;
+	color: rgb(255, 47, 47);
+	}
+    #main2{
+        grid-column: 1 / span 1;
+	color:rgb(61, 239, 108);
+	}
+    #right{
+        grid-column: 1 / span 1;
+	color:rgb(61, 239, 108);
+	}
+	#footer{
+        grid-column: 1 / span 1;
+	color: rgb(17, 17, 17);
+	}
+}
+
+h1{
+	text-decoration: underline;
+	font-size: 20px;
+	color: rgb(255, 47, 47);
+	font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+#main1 img{
+	max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#main2 img{
+	max-width: 10%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.pizza_flex{
+	
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+	width: 100%;
+    justify-content: center;
+}
+
+.pizza_flex img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.pizza_flex div{
+    width: 400px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+#right img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

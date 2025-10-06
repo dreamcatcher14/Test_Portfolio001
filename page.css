@@ -1,0 +1,280 @@
+/*body*/
+#i_body{
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(to bottom, #000000 50%,#49c2ff 100%);
+    background-attachment: fixed; /* ทำให้ gradient ไม่เลื่อน */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#p_body{
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(to bottom, #000000 50%,#49c2ff 100%);
+    background-attachment: fixed; /* ทำให้ gradient ไม่เลื่อน */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*h&p*/
+h1{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+}
+p{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 1.5;
+}
+/*main grid*/
+.i_grid-container {
+	display: grid;
+    grid-template-columns: 10% auto 20%;
+    grid-gap: 10px;
+}
+
+.i_grid-container > div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    background-color:#000000;
+}
+
+/*index grid*/
+#i_grid1{
+	grid-column: 1 / span 4;
+	font-size: 20px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#i_grid2{
+	grid-column: 1 / span 4;
+	font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#i_grid3{
+	grid-column: 1 / span 2;
+	font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#i_grid4{
+	grid-column: 3 / span 2;
+	font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#i_grid5{
+	grid-column: 1 / span 2;
+	font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#i_grid6{
+	grid-column: 3 / span 2;
+	font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*project grid*/
+.p_grid-container {
+	display: grid;
+    grid-template-columns: 10% auto 20%;
+    grid-gap: 10px;
+}
+.p_grid-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.p_grid-container > div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color:#000000;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+#p_grid1{
+	grid-column: 1 / span 4;
+	font-size: 20px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#p_grid2 {
+	grid-column: 1 / span 2;
+	font-size: 20px;
+    color: #49c2ff;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    border: 5px dotted rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#p_grid3 {
+	grid-column: 3 / span 2;
+	font-size: 20px;
+    color: #49c2ff;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    border: 5px dotted rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#p_grid4{
+	grid-column: 1 / span 2;
+	font-size: 20px;
+    color: #49c2ff;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    border: 5px dotted rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#p_grid5 {
+	grid-column: 3 / span 2;
+	font-size: 20px;
+    color: #49c2ff;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    border: 5px dotted rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#p_grid6{
+	grid-column: 1 / span 2;
+	font-size: 20px;
+    color: #49c2ff;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    border: 5px dotted rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#p_grid7{
+	grid-column: 3 / span 2;
+	font-size: 20px;
+    color: #49c2ff;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    border: 5px dotted rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*flex*/
+.skill_flex{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    line-height: 1.5;
+
+}
+
+.skill_flex div{
+    width: 200px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.skill_flex img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+
+/*image*/
+#i_grid2 img{
+	max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/*
+@media only screen and (max-width: 767px){
+    #top, #topic, #reply1, #reply2{
+        border: 2px solid rgb(255, 255, 255);
+        word-break: break-word;
+        white-space: normal;
+    }
+}
+*/
